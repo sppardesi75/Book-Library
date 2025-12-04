@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB54B06B2D729EBC00FE7146 /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB54B06A2D729EBC00FE7146 /* BookStore.swift */; };
 		CB7C72A02D72935500DC528D /* BookLibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C729F2D72935500DC528D /* BookLibraryApp.swift */; };
-		CB7C72A22D72935500DC528D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C72A12D72935500DC528D /* ContentView.swift */; };
 		CB7C72A42D72935700DC528D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7C72A32D72935700DC528D /* Assets.xcassets */; };
 		CB7C72A72D72935700DC528D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7C72A62D72935700DC528D /* Preview Assets.xcassets */; };
 		CB7C72B12D72935700DC528D /* BookLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C72B02D72935700DC528D /* BookLibraryTests.swift */; };
 		CB7C72BB2D72935700DC528D /* BookLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C72BA2D72935700DC528D /* BookLibraryUITests.swift */; };
 		CB7C72BD2D72935700DC528D /* BookLibraryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C72BC2D72935700DC528D /* BookLibraryUITestsLaunchTests.swift */; };
+		CB7C72CA2D72942200DC528D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C72C92D72942200DC528D /* Book.swift */; };
+		CB7C72CC2D72947500DC528D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C72CB2D72947500DC528D /* SampleData.swift */; };
+		CB7C72CE2D7294F200DC528D /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C72CD2D7294F200DC528D /* MasterView.swift */; };
+		CB7C72D02D72958700DC528D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C72CF2D72958700DC528D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB54B06A2D729EBC00FE7146 /* BookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
+		CB54B06D2D73D89B00FE7146 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB7C729C2D72935500DC528D /* BookLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7C729F2D72935500DC528D /* BookLibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLibraryApp.swift; sourceTree = "<group>"; };
-		CB7C72A12D72935500DC528D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB7C72A32D72935700DC528D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB7C72A62D72935700DC528D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB7C72AC2D72935700DC528D /* BookLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,10 @@
 		CB7C72B62D72935700DC528D /* BookLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7C72BA2D72935700DC528D /* BookLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLibraryUITests.swift; sourceTree = "<group>"; };
 		CB7C72BC2D72935700DC528D /* BookLibraryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLibraryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB7C72C92D72942200DC528D /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CB7C72CB2D72947500DC528D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		CB7C72CD2D7294F200DC528D /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		CB7C72CF2D72958700DC528D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,7 @@
 		CB7C72932D72935500DC528D = {
 			isa = PBXGroup;
 			children = (
+				CB54B06D2D73D89B00FE7146 /* README.md */,
 				CB7C729E2D72935500DC528D /* BookLibrary */,
 				CB7C72AF2D72935700DC528D /* BookLibraryTests */,
 				CB7C72B92D72935700DC528D /* BookLibraryUITests */,
@@ -95,9 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				CB7C729F2D72935500DC528D /* BookLibraryApp.swift */,
-				CB7C72A12D72935500DC528D /* ContentView.swift */,
 				CB7C72A32D72935700DC528D /* Assets.xcassets */,
 				CB7C72A52D72935700DC528D /* Preview Content */,
+				CB7C72C92D72942200DC528D /* Book.swift */,
+				CB7C72CB2D72947500DC528D /* SampleData.swift */,
+				CB7C72CD2D7294F200DC528D /* MasterView.swift */,
+				CB7C72CF2D72958700DC528D /* DetailView.swift */,
+				CB54B06A2D729EBC00FE7146 /* BookStore.swift */,
 			);
 			path = BookLibrary;
 			sourceTree = "<group>";
@@ -257,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB7C72A22D72935500DC528D /* ContentView.swift in Sources */,
+				CB7C72D02D72958700DC528D /* DetailView.swift in Sources */,
 				CB7C72A02D72935500DC528D /* BookLibraryApp.swift in Sources */,
+				CB54B06B2D729EBC00FE7146 /* BookStore.swift in Sources */,
+				CB7C72CA2D72942200DC528D /* Book.swift in Sources */,
+				CB7C72CE2D7294F200DC528D /* MasterView.swift in Sources */,
+				CB7C72CC2D72947500DC528D /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

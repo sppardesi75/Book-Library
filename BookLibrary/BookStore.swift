@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import Combine
+
+class BookStore: ObservableObject {
+    @Published var books: [Book] = sampleBooks
+}
